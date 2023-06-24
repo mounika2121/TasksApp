@@ -1,0 +1,161 @@
+.app-container{
+    background-color: #f2f7f7;
+    width: 400px;
+}
+
+label{
+    margin-bottom: 8px;
+}
+
+.add-new-task-container{
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.plus-button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task{
+    width: 330px;
+}
+
+.hr-line{
+    border-left:1px solid #dedede;
+    height: 40px;
+}
+
+.task-descreption{
+    width: 335px;
+    margin-bottom: 15px;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+}
+
+.labels-container{
+    padding: 15px;
+}
+
+.date-time{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.date-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.time-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.date-input{
+    width: 160px;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+}
+
+.time-input{
+    width: 160px;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+}
+
+.select-option{
+    width: 335px;
+    height: 35px;
+    outline: none;
+    padding: 7px;
+}
+
+.select-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ul-list{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.list-task{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cancel-btn{
+    background-color:  #f7931e;
+    border: none;
+    height: 40px;
+    width: 90px;
+    color: white;
+    margin-right: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.save-btn{
+    background-color: #8cc63f;
+    border: none;
+    height: 40px;
+    width: 90px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #dedede;
+    border-left: 3px solid rgb(228, 209, 7);
+}
+
+.bg-container{
+    padding: 10px;
+}
+
+.task-name-date-time{
+    display: flex;
+    flex-direction: row;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.icon{
+    border: 1px solid #dedede;
+}
